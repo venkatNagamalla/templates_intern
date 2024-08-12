@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .main-container {
+        background-image: url("https://s3-alpha-sig.figma.com/img/aade/d9b8/31675510854668dfbe8dfa854e9098b8?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NknnoLft0uejcGITFlDzYEdrRvt4NK3SorthlaR2uaWDfGPwcxNydkdyRXVUVlUdZJyFXAJ5Pq9lN-rR4NK2Ds5wqridvYXxiOneR~LgijF7OKy3SgdfnuHBFI6Wf8AvNdLMBidJXT72rYahUvdlNsIXsGQO9ErwtETA--iOkc44Ng9bqPr8XpRpcB-k1TY0xiWuYMI0KzxAgV790Shz3kTt7HJIjUlZtZ-T7szbh2N1-bRlmX8oVKVljN~Z9DCFNoq4KsQx3dN1Xao0rqY4dK8qIDV4JPpyvtywVG8qR33jWaKIHsGbhqeBm~wRtS5o~SremtxC32ki-CR47roX~g__");
+        background-size: cover;
+        width: 600px;
+        background-position: center center;
+        height: 600px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .website {
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .website-box {
+        width: 255px;
+        border: none;
+        background-color: #ffffff33;
+        align-self: center;
+      }
+
+      .offer-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 20px 10px 20px;
+        transform: rotate(4deg);
+      }
+
+      .offer-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: center;
+        height: 90%;
+      }
+
+      .transform {
+        transform: rotate(270deg);
+      }
+
+      .top-box {
+        border-top-left-radius: 120px;
+        border-top-right-radius: 120px;
+        position: relative;
+        top: 5px;
+      }
+
+      .bottom-box {
+        border-bottom-left-radius: 120px;
+        border-bottom-right-radius: 120px;
+        position: relative;
+        bottom: 73px;
+      }
+      
+       .box-style{
+        background-color: #fff;
+        width: 180px;
+        height: 90px;
+       }
+
+      .letter-f {
+        width: 35.82px;
+        height: 53.05px;
+        top: 466.15px;
+        left: 390.45px;
+        color: #000;
+        font-weight: 600;
+        font-size: 28px;
+        transform: rotate(52.53deg);
+      }
+
+      .discount {
+        width: 90px;
+        height: 90px;
+        border-radius: 100%;
+        position: relative;
+        bottom: 30px;
+        transform: rotate(-4deg);
+        z-index: 10;
+        padding: 10px;
+        background-color: #222222;
+      }
+       
+      .discount-percent{
+        font-family: "Montserrat";
+        font-size: 32px;
+        font-weight: 700;
+        color:#fff;
+        height: 60%;
+        margin-top: 10px;
+        
+      }
+
+      .off{
+         font-family: "Montserrat";
+         font-weight: 200;
+         color:#fff;
+         height: 40%;
+         font-size: 29px;
+         margin-left: 13px;
+      }
+
+      .curved-text-top {
+            font-family: "Bree Serif";
+            font-size: 35px;
+            font-weight: 700;
+            fill: #000;
+            transform: rotate(4deg);
+        }
+
+        .svg-1{
+            transform: rotate(20deg);
+            margin-top: 28px;
+        }
+        .curved-text-bottom {
+            font-family: "Bree Serif";
+            font-size: 35px;
+            font-weight: 700;
+            fill: #000;
+        }
+
+        .svg-2{
+            margin-left: 10px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="website-box">
+        <p class="website">samplewebsite.com</p>
+      </div>
+
+      <section class="offer-section">
+        <div class="website-box transform">
+          <p class="website">samplewebsite.com</p>
+        </div>
+
+        <div class="offer-box">
+          <div class="top-box box-style">
+            <svg class="svg-1" width="300" height="100">
+                <defs>
+                    <path id="top-curve" d="M 37,78 A 150,90 0 0,1 300, 60" />
+                </defs>
+                <text class="curved-text-top">
+                    <textPath href="#top-curve"> F L A S H </textPath>
+                </text>
+            </svg>
+          </div>
+          <div class="discount">
+            <span class="discount-percent">99%</span></br><span class="off">off</span>
+          </div>
+          <div class="bottom-box box-style">
+            <svg class="svg-2" width="300" height="100">
+                <defs>
+                    <path id="bottom-curve" d="M 30,70 A 40, 2 0 0,1 300, 100" />
+                </defs>
+                <text class="curved-text-bottom">
+                    <textPath href="#bottom-curve"> S A L E </textPath>
+                </text>
+            </svg>
+          </div>
+        </div>
+
+        <div class="website-box transform">
+          <p class="website">samplewebsite.com</p>
+        </div>
+      </section>
+      <div class="website-box">
+        <p class="website">samplewebsite.com</p>
+      </div>
+    </div>
+  </body>
+</html>

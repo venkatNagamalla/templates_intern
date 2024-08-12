@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main-container {
+        background-image: url("https://s3-alpha-sig.figma.com/img/3ad0/c416/5f64608e04826b7d31a3997196575c41?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mP-wKEITIXYhWzG3f7SwRn-0uEGF8m52RDsmZ0LCKfpNQ8EWd7vK~BfV-zyDanSWK51sugKC59OPw4whJxeBtJ5pJNR7NFOvAiWwdOIhe1ewF3GuNLfXBB5AQtDivvbbqQ767Zw1fO0x-tUhsLBGBmV4fq~YvTJFS7ss63WA~SeEgjxQWWeZ9OV85ygQxnHH74IAreFHFuE0ebNzPfj06kKuf66FESF3BUeSLXBH3~ejl1QSxasodpL9SFGmfbsY672iDJoFhYM1jdPRRZu23aF5nPOPM1jqAK2jxFkvI4diJog-Y0SWl4-cSr0nksMrREcxAcUxv9fH71THFpJXoA__");
+        background-size: cover;
+        height: 600px;
+        width: 600px;
+        overflow: hidden;
+      }
+      .inner-container {
+        background: #a600ac99;
+        height: 100%;
+      }
+
+      .container-1 {
+        background: #fffa0d;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+      }
+
+      .container-2 {
+        background: #fffa0d;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+      }
+
+      .section-1 {
+        transform: rotate(3deg);
+        display: flex;
+        justify-content: center;
+      }
+
+      .section-2 {
+        transform: rotate(-4deg);
+        margin-top: 4px;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .container-text {
+        color: #b907c0;
+        font-size: 90px;
+        font-weight: 800;
+        font-family: "Montserrat";
+      }
+
+      .small-star-1 {
+        align-self: flex-end;
+        margin-left: 10px;
+      }
+
+      .small-star-2 {
+        align-self: flex-start;
+        margin-right: 10px;
+      }
+
+      .days-text {
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 44px;
+        color: #fff;
+        text-align: right;
+        transform: rotate(4deg);
+        margin-right: 60px;
+      }
+
+      .left-container{
+        width: 50%;
+        position: relative;
+        left: 10px;
+      }
+
+      .left-container p{
+        color: #fff;
+        font-family: "Montserrat";
+        font-weight: 800;
+        font-size: 100px;
+        
+      }
+
+      .website-container{
+        background-color: #fffa0d;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .website-container span{
+        color:#b907c0;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 20px;
+      }
+
+
+      .offer-section{
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        height: 400px;
+        margin-top: 50px;
+    }
+
+     img{
+        width: 200px;
+        height: 300px;
+        position: relative;
+        object-fit: cover;
+        bottom: 400px;
+        left: 130px;
+     }
+
+     .right-container{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        right: 30px;
+     }
+     
+     .yellow-star{
+        position: relative;
+        height: 100%;
+        top: -60px;
+        right: -10px;
+     }
+      
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="inner-container">
+        <p class="days-text">3 Days Only</p>
+        <section class="section-1">
+          <div class="container-1">
+            <p class="container-text">FLASH</p>
+          </div>
+          <svg
+            class="small-star-1"
+            width="40"
+            height="40"
+            viewBox="0 0 82 82"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M46.5654 0.00360253L53.1377 31.2288L81.1199 46.5653L49.8946 53.1375L34.5582 81.1197L27.9859 49.8945L0.00372168 34.5581L31.2289 27.9858L46.5654 0.00360253Z"
+              fill="white"
+            />
+          </svg>
+        </section>
+        <section class="section-2">
+          <svg
+            class="small-star-2"
+            width="40"
+            height="40"
+            viewBox="0 0 82 82"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M46.5654 0.00360253L53.1377 31.2288L81.1199 46.5653L49.8946 53.1375L34.5582 81.1197L27.9859 49.8945L0.00372168 34.5581L31.2289 27.9858L46.5654 0.00360253Z"
+              fill="white"
+            />
+          </svg>
+          <div class="container-2">
+            <p class="container-text">SALE</p>
+          </div>
+        </section>
+        <section class="offer-section">
+             <div class="left-container">
+                <p>45% </br>OFF </p>
+                <div class="website-container">
+                    <span>
+                        samplewebsite.com
+                    </span>
+                </div>
+             </div>
+             <div class="right-container">
+                <svg class="yellow-star" width="357" height="504" viewBox="0 0 627 594" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M632.35 0.749559L565.961 320.14L849.204 481.977L524.93 517.535L458.541 836.925L324.517 539.51L0.243506 575.067L241.687 355.697L107.664 58.2824L390.907 220.119L632.35 0.749559Z" fill="#FFFA0D"/>
+                    </svg>
+                <img  src="https://s3-alpha-sig.figma.com/img/8861/525b/eae8a337adcd846f61f332dce9932c3f?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SGqSZ9kI9gGX7rn8g4rtAzEYUQPQX~Hrcg76~-zlnBQYyRahSpSzVorgS4Cr06H2H5mcMh75K6hf1t9h~TX1CiDjKbV09elSaYKsonDt4ljzN59oeRwaOuwSwj74ja1K-Ii1VcmxJ7dWMnnDQiZ-i2ueGex-cpc1VqobXIJpG9SJe1L1cvYuDq~5nNyYsqk8SmRyjIqwL6o88ytqgYBrsm17nV3-SPeYamxBxizyYrqLnvHBpDJdz1G1pB6YISTyFyUhIAUBJZCZdVGuEnojAWbI29p~TA6Eq64qVAVb0io0tFj266qhJIEnEyU0AAPNmU9Koy5L74Syas~UKxJTqw__" alt="hero"/>
+             </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
